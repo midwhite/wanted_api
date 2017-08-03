@@ -2,7 +2,7 @@ class CardsController < ApplicationController
   def index
     p Card.all
 
-    cards = Card.where(event_id: params[:event_id]).map(&:format_profile)
+    cards = Card.where(event_id: params[:event_id]).map(&:info)
     render json: { cards: cards }
   end
 

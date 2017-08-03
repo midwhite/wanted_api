@@ -1,6 +1,7 @@
 class Card < ApplicationRecord
-  def format_profile
+  def info
     {
+      id: self.id,
       name: self.name,
       age: self.age,
       tags: [self.tag_1, self.tag_2, self.tag_3],

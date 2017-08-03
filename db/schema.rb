@@ -18,13 +18,13 @@ ActiveRecord::Schema.define(version: 20170801133745) do
     t.integer "age"
     t.string "job"
     t.string "industry"
-    t.string "state"
     t.string "tag_1"
     t.string "tag_2"
     t.string "tag_3"
     t.string "profile_1"
     t.string "profile_2"
     t.string "profile_3"
+    t.string "state"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
