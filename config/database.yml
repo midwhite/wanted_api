@@ -19,10 +19,3 @@ test:
 
 production:
   url: <%= ENV["DATABASE_URL"] %>
-  # encoding: utf8
-  # adapter: postgresql
-  # port: 5432
-  # username: <%= ENV["DB_USERNAME"] %>
-  # host: <%= ENV["DB_HOST"] %>
-  # database: <%= ENV["DB_DATABASE"] %>
-  # password: <%= ENV["DB_PASSWORD"] %>
